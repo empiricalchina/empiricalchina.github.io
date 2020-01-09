@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(fab, faExternalLinkAlt);
 
-const Header = () => {
+const Header = ({ pathname }) => {
   const { siteTitle, externalLinks, basePath } = useSiteMetadata();
   const nav = useNavigation();
   const [ colorMode, setColorMode ] = useColorMode();
@@ -32,7 +32,7 @@ const Header = () => {
           aria-label={`${siteTitle} - Back to home`}
           sx={{ color: `heading`, textDecoration: `none` }}
         >
-          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [ 3, 4 ] }}>{location.pathname === '/' ? '' : siteTitle}</h1>
+          <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [ 3, 4 ] }}>{pathname === '/' ? '' : siteTitle}</h1>
         </Link>
       </Flex>
       <div

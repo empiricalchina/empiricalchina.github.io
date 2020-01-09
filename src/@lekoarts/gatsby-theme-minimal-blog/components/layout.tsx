@@ -36,7 +36,7 @@ const Layout = ({ children, className, location }: LayoutProps) => (
     <SEO />
     <SkipNavLink>Skip to content</SkipNavLink>
     <Container>
-      <Header />
+      <Header {...location} />
       <Main id="skip-nav" css={css({ ...CodeStyles })} className={className}>
         {children}
       </Main>
