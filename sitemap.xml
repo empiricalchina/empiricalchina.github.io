@@ -3,4 +3,6 @@
 <url> <loc>https://empiricalchina.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://empiricalchina.github.io/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://empiricalchina.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://empiricalchina.github.io/thanks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://empiricalchina.github.io/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
